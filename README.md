@@ -33,7 +33,6 @@
   <summary>generateArray</summary>
 	
   ```java
-/**
 	private static final ThreadLocalRandom rnd = ThreadLocalRandom.current();
 	
 	/**
