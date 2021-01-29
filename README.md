@@ -5,6 +5,6 @@
 Результат:
 ----
 
-![Gitter](https://github.com/ppc-ntu-khpi/34-arrays-coldbeatz/blob/master/Screenshot_17.png)<br>
-![Gitter](https://github.com/ppc-ntu-khpi/34-arrays-coldbeatz/blob/master/Screenshot_18.png)<br>
+![Gitter](https://github.com/ppc-ntu-khpi/34-arrays-coldbeatz/blob/master/Screenshot_17.png)<br><br>
+![Gitter](https://github.com/ppc-ntu-khpi/34-arrays-coldbeatz/blob/master/Screenshot_18.png)<br><br>
 ![Gitter](https://github.com/ppc-ntu-khpi/34-arrays-coldbeatz/blob/master/Screenshot_20.png)<br>
