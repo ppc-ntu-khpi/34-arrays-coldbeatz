@@ -3,12 +3,31 @@
 ## Завдання: Знайти в масиві число, яке повторюється найбільшу кількість разів
 
 <details>
-  <summary>Spoiler warning</summary>
+  <summary>find</summary>
   
   Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
   
-  ```javascript
-  console.log("I'm a code block!");
+  ```java
+/**
+	 * Знаходить в массиві число, яке повторюється найбільшу кількість разів
+	 * 
+	 * @param arr массив
+	 * @return Повертає число, яке в массиві повторюються найбільшу кількість разів
+	 */
+	public static int find(int[] arr) {
+		Map<Integer, Integer> nums = new HashMap<>();
+		for (int number : arr) {
+			Integer i = nums.get(number);
+			nums.put(number, i == null ? 1 : i+1);
+		}
+		
+		int max = Collections.max(nums.values());
+		for (Map.Entry<Integer, Integer> number : nums.entrySet()) {
+			if (number.getValue() == max)
+				return number.getKey();
+		}
+		return -1;
+	}
   ```
   
 </details>
