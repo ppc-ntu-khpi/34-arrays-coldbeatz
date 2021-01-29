@@ -1,12 +1,16 @@
 package test;
 
-import domain.Exercise;
+import java.util.Arrays;
+
+import static domain.Exercise.*;
 
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+    	int[] arr = generateArray(10);
+		System.out.println(Arrays.toString(arr));
+		
+		int count = find(arr);
+		System.out.println(count);
     }
 }
